@@ -3,9 +3,9 @@ name: Stage the app
 on: 
   pull_request:
     types:
-    -spin up environment
-    -stage
-    -destroy environment
+      -spin up environment
+      -stage
+      -destroy environment
     
 
 jobs:
